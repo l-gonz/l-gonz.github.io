@@ -26,6 +26,7 @@ bio: Building ideas.
 #- Information Retrieval
 
 education:
+  courses:
   - course: BSc in Aerospace Engineering
     institution: Rey Juan Carlos University
     year: 2023
@@ -46,13 +47,13 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:l.gonzalezfernan@gmail.com'
+    link: 'about/#contact'
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/lauragonfer/
   - icon: github
     icon_pack: fab
-    link: https://github.com/l-goz
+    link: https://github.com/l-gonz
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
   - icon: cv
