@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Alice Wu (吳恩達)
+title: Laura Gonzalez Fernandez
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: ''
+role: 'Software Engineer'
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: ⛰️
 
 # Organizations/Affiliations
 #organizations:
@@ -44,17 +44,17 @@ bio: My research interests include distributed robotics, mobile computing and pr
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'about/#contact' # For a direct email link, use "mailto:test@example.org".
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/wowchemy
-  - icon: instagram
-    icon_pack: fab
-    link: https://instagram.com/geocushen
+    link: 'mailto:l.gonzalezfernan@gmail.com' # For a direct email link, use "mailto:test@example.org".
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/wowchemy
+  # - icon: instagram
+  #   icon_pack: fab
+  #   link: https://instagram.com/geocushen
 # Uncomment below for Github link
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/gcushen
+- icon: github
+ icon_pack: fab
+ link: https://github.com/l-goz
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
