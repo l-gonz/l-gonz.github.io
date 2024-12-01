@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Laura Gonzalez Fernandez
+title: Laura Gonzalez
 
 # Is this the primary user of the site?
 superuser: true
@@ -10,7 +10,7 @@ role: 'Software Engineer'
 
 # Status emoji
 status:
-  icon: ⛰️
+  icon: 🚀
 
 # Organizations/Affiliations
 #organizations:
@@ -18,24 +18,26 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Building ideas.
 
 #interests:
 #- Artificial Intelligence
 #- Computational Linguistics
 #- Information Retrieval
 
-#education:
-#  courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stanford University
-#    year: 2012
-#  - course: MEng in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2009
-#  - course: BSc in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2008
+education:
+  - course: BSc in Aerospace Engineering
+    institution: Rey Juan Carlos University
+    year: 2023
+  - course: BSc in Telecommunications Engineering
+    institution: Rey Juan Carlos University
+    year: 2024
+
+skills:
+  - C# / .Net
+  - Python
+  - Unity Engine
+  - Azure Cloud
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -44,30 +46,25 @@ bio: My research interests include distributed robotics, mobile computing and pr
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:l.gonzalezfernan@gmail.com' # For a direct email link, use "mailto:test@example.org".
-  # - icon: twitter
-  #   icon_pack: fab
-  #   link: https://twitter.com/wowchemy
-  # - icon: instagram
-  #   icon_pack: fab
-  #   link: https://instagram.com/geocushen
-# Uncomment below for Github link
+    link: 'mailto:l.gonzalezfernan@gmail.com'
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/lauragonfer/
   - icon: github
     icon_pack: fab
     link: https://github.com/l-goz
-
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+  - icon: cv
+    icon_pack: ai
+    link: uploads/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 #email: ""
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I’m a software engineer with a passion for transforming ideas into innovative, real-world solutions. With over six years of experience in software development, I specialize in full-stack development, with a focus on building scalable and efficient systems. Whether it’s crafting elegant code or designing intuitive user experiences, I’m driven by the challenge of solving complex problems and continuously learning new technologies to stay at the forefront of the industry.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Beyond my technical skills, I thrive in environments where I can collaborate, iterate, and refine my work to make a tangible impact. From game development to web applications and machine learning, my journey has been diverse, and I’m always excited to take on new challenges that push my boundaries and expand my knowledge. In every project, I strive to bring creativity, precision, and passion to the table, ensuring that the software I build truly brings ideas to life.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/cv.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
