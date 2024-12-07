@@ -40,11 +40,11 @@ header:
     show_language: false
     show_day_night: true
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Laura Gonzalez Fernandez. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -54,8 +54,8 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '2 Jan 2006'
+  time_format: '15:04'
 
 # Site features
 
@@ -70,7 +70,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/l-gonz/portfolio'
+    url: 'https://github.com/l-gonz.github.io'
     content_dir: content
     branch: main
   avatar:
