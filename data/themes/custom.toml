@@ -3,17 +3,17 @@ name = "Starter Blog"
 
 [light]
   # Primary
-  primary = "#2962ff"
+  primary = "#3e5e6f"
 
   # Menu
-  menu_primary = "#3e5e6f"
+  menu_primary = "#f7fafc"
   menu_text = "#34495e"
-  menu_text_active = "#2962ff"
+  menu_text_active = "#3e5e6f"
   menu_title = "#2b2b2b"
 
   # Home sections
-  home_section_odd = "#3e5e6f"
-  home_section_even = "#3e5e6f"
+  home_section_odd = "#f7fafc"
+  home_section_even = "#f7fafc"
 
 [dark]
   primary = "#bbdefb"
