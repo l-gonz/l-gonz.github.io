@@ -4,13 +4,14 @@ summary: A project developed for my Final Year dissertation for Aeroespace Engin
 subtitle: Exploration of Vision-Based Control Solutions for PX4-Driven UAVs
 tags: ['py', 'cv']
 date: 2022-12-01
+github: "https://github.com/l-gonz/tfg-giaa-dronecontrol"
 links:
   - icon: github
     icon_pack: fab
     external_link: https://github.com/l-gonz/tfg-giaa-dronecontrol
   - icon: archive
     icon_pack: ai
-    link: https://burjcdigital.urjc.es/handle/10115/25414
+    link: "https://burjcdigital.urjc.es/handle/10115/25414"
   - icon: link
     link: https://l-gonz.github.io/tfg-giaa-dronecontrol
 ---
