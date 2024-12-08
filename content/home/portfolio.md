@@ -29,11 +29,11 @@ content:
     - name: All
       tag: '*'
     - name: Machine Learning
-      tag: ML
+      tag: ml
     - name: Computer Vision
-      tag: CV
-    - name: NLP
-      tag: NLP
+      tag: cv
+    - name: Python
+      tag: py
 
 design:
   columns: '1'
