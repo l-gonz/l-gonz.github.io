@@ -7,12 +7,11 @@ date: 2022-12-01
 links:
   - icon: github
     icon_pack: fab
-    link: https://github.com/l-gonz/tfg-giaa-dronecontrol
-  - icon: library
-    icon_pack: fab
+    external_link: https://github.com/l-gonz/tfg-giaa-dronecontrol
+  - icon: archive
+    icon_pack: ai
     link: https://burjcdigital.urjc.es/handle/10115/25414
   - icon: link
-    icon_pack: fab
     link: https://l-gonz.github.io/tfg-giaa-dronecontrol
 ---
 
