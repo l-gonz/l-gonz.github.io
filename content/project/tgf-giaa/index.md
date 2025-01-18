@@ -13,11 +13,14 @@ links:
 
 
 ## Overview
+
+This project was developed as the end-of-degree project for my bachelor in Aerospace Engineering. You can find the project report in the [university's archive](https://burjcdigital.urjc.es/handle/10115/25414).
+
 This project explored the integration of computer vision techniques into unmanned aerial vehicle (UAV) control systems, leveraging the PX4 open-source autopilot platform. The primary goal was to create a system capable of autonomous tracking and following a human target, using affordable hardware and real-time image analysis.
 
 Two control solutions were developed: a **hand-gesture-based control mechanism** (proof-of-concept) and a more advanced **human-following control system**, showcasing the adaptability of vision-based controls in UAVs. Simulations and flight tests validated the effectiveness of these solutions, paving the way for future improvements in UAV autonomy.
 
-[Find the project thesis here](https://burjcdigital.urjc.es/handle/10115/25414)
+
 
 ---
 
@@ -43,6 +46,26 @@ Two control solutions were developed: a **hand-gesture-based control mechanism**
 
 ---
 
+## Showcase
+
+### Hand gesture control
+
+Available gestures
+![Possible gestures](images/giaa/hand-gestures.jpg)
+
+Interface
+![Hand gesture control](images/giaa/hand-interface.png)
+
+### Human follow control
+
+Axes for drone control
+![Follow vectors](images/giaa/follow-vectors.jpg)
+
+Interface
+![Follow control](images/giaa/follow-interface.png)
+
+---
+
 ## Development Journey
 ### Phase 1: Proof-of-Concept
 - Developed a hand-gesture-based control mechanism to test basic integration between the PX4 platform and MediaPipe.
@@ -60,21 +83,7 @@ Two control solutions were developed: a **hand-gesture-based control mechanism**
 
 ---
 
-## Showcase
-
-### Hand gesture control
-![Hand gesture control](images/giaa/hand-interface.png)
-
-### Human follow control
-![Hand gesture control](images/giaa/follow-interface.png)
-
----
-
 ## Future Improvements
 - Enhance detection algorithms for better performance in low-light conditions.
 - Integrate obstacle avoidance for safer autonomous navigation.
 - Expand to multi-drone systems for collaborative tasks.
-
----
-
-This project demonstrates how cutting-edge computer vision can transform UAV autonomy, showcasing the versatility and power of open-source tools like PX4. It’s a testament to the potential of accessible, innovative solutions in advancing aerospace technology.
