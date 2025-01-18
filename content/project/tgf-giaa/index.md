@@ -26,7 +26,6 @@ Two control solutions were developed: a **hand-gesture-based control mechanism**
 
 ## Software architecture
 ![Hand gesture control](images/giaa/software-arch.jpg)
-![Hand gesture control](software-arch.jpg)
 
 ---
 
