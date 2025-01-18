@@ -9,11 +9,6 @@ links:
   - icon: github
     icon_pack: fab
     external_link: https://github.com/l-gonz/tfg-giaa-dronecontrol
-  - icon: archive
-    icon_pack: ai
-    link: "https://burjcdigital.urjc.es/handle/10115/25414"
-  - icon: link
-    link: https://l-gonz.github.io/tfg-giaa-dronecontrol
 ---
 
 
@@ -21,6 +16,14 @@ links:
 This project explored the integration of computer vision techniques into unmanned aerial vehicle (UAV) control systems, leveraging the PX4 open-source autopilot platform. The primary goal was to create a system capable of autonomous tracking and following a human target, using affordable hardware and real-time image analysis.
 
 Two control solutions were developed: a **hand-gesture-based control mechanism** (proof-of-concept) and a more advanced **human-following control system**, showcasing the adaptability of vision-based controls in UAVs. Simulations and flight tests validated the effectiveness of these solutions, paving the way for future improvements in UAV autonomy.
+
+[Find the project thesis here](https://burjcdigital.urjc.es/handle/10115/25414)
+
+---
+
+## Software architecture
+![Hand gesture control](images/giaa/software-arch.jpg)
+![Hand gesture control](software-arch.jpg)
 
 ---
 
@@ -58,11 +61,12 @@ Two control solutions were developed: a **hand-gesture-based control mechanism**
 ---
 
 ## Showcase
-![Human-Following Demonstration](images/human-following-demo.jpg)
 
-Experience the project:
-- [GitHub Repository](https://github.com/yourusername/project-repo)
-- [Live Demo](https://your-live-demo-link.com)
+### Hand gesture control
+![Hand gesture control](images/giaa/hand-interface.png)
+
+### Human follow control
+![Hand gesture control](images/giaa/follow-interface.png)
 
 ---
 
