@@ -36,7 +36,7 @@ content:
       tag: python
     - name: Arduino
       tag: arduino
-    - name: 3D modelling
+    - name: 3D Modelling
       tag: 3d-model
 
 design:

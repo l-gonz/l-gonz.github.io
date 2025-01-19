@@ -1,6 +1,5 @@
 ---
 title: Bluetooth Rally Remote Controller
-subtitle: RallyOTA
 summary: An Arduino-based Bluetooth controller for motorcycle rally navigation with over-the-air updates.
 tags: ["arduino", "3d-model"]
 date: 2024-03-04
@@ -59,9 +58,9 @@ This project combines hardware tinkering with Arduino programming and 3D modelli
 
 ## See It in Action
 
-![RallyOTA in action in a breadboard](images/rally/demo-v1.gif "First tests")
+![RallyOTA in action in a breadboard](images/rally/demo-v1.gif "First tests with breadboard wiring")
 
-![RallyOTA in action with soldered circuits](images/rally/demo-v2.gif "With completed build")
+![RallyOTA in action with soldered circuits](images/rally/demo-v2.gif "Testing completed and soldered build")
 
 - [GitHub Repository](https://github.com/l-gonz/RallyOTA)
 
@@ -69,7 +68,7 @@ This project combines hardware tinkering with Arduino programming and 3D modelli
 
 ## 3D model
 
-[3D model in Fusion 360](images/rally/model.jpg "Holder designed in Fusion 360 for the custom hardware.")
+![3D model in Fusion 360](images/rally/model.jpg "Holder designed in Fusion 360 for the custom hardware.")
 
 ---
 
