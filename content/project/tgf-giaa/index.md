@@ -1,7 +1,8 @@
 ---
 title: Computer Vision for UAVs
-summary: A project developed for my Final Year dissertation for Aeroespace Engineer Bachelor Degree.
+summary: A project developed for my Final Year report for Aeroespace Engineer Bachelor Degree.
 subtitle: Exploration of Vision-Based Control Solutions for PX4-Driven UAVs
+description: "Using computer vision to teach drones how to follow people and respond to gestures."
 tags: ['py', 'cv']
 date: 2022-12-01
 github: "https://github.com/l-gonz/tfg-giaa-dronecontrol"
@@ -12,36 +13,34 @@ links:
 ---
 
 
-## Overview
+## The DroneVisionControl application
 
-This project was developed as the end-of-degree project for my bachelor in Aerospace Engineering. You can find the project report in the [university's archive](https://burjcdigital.urjc.es/handle/10115/25414).
+Have you ever wanted a drone that could follow you around or respond to your hand gestures? That’s exactly what I set out to do with this project! Using the PX4 autopilot platform and some popular computer vision tools, I created a system that lets a drone track a person or respond to gestures in real time.
 
-This project explored the integration of computer vision techniques into unmanned aerial vehicle (UAV) control systems, leveraging the PX4 open-source autopilot platform. The primary goal was to create a system capable of autonomous tracking and following a human target, using affordable hardware and real-time image analysis.
+The project combined software development, hardware tinkering, and simulation to explore how vision-based control can make drones smarter and more interactive.
 
-Two control solutions were developed: a **hand-gesture-based control mechanism** (proof-of-concept) and a more advanced **human-following control system**, showcasing the adaptability of vision-based controls in UAVs. Simulations and flight tests validated the effectiveness of these solutions, paving the way for future improvements in UAV autonomy.
+This application was developed as the Final Year project for my bachelor in Aerospace Engineering. The project report is hosted in the [university's archive](https://burjcdigital.urjc.es/handle/10115/25414).
 
+---
 
+## Key Features
+- **Follow Mode**: The drone uses a camera to track a person and follow their movements automatically.
+- **Gesture Control Mode**: Simple hand gestures can control the drone’s movement, like telling it to move forward or turn.
+- **Simulation and Flight Tests**: Developed a platform to test control algorithms in a virtual environment (built on Unreal Engine) before trying it out on a real drone.
+- **Low-Cost Hardware**: Built using affordable components like a Raspberry Pi and a basic webcam.
+
+---
+
+## Tech Stack
+- **Languages**: Python  
+- **Tools**: PX4 (autopilot), Google's MediaPipe (for gesture detection), OpenCV (for image processing)  
+- **Simulation**: AirSim + Unreal Engine  
+- **Hardware**: Pixhawk 4, Raspberry Pi 4, Logitech C920  
 
 ---
 
 ## Software architecture
 ![Hand gesture control](images/giaa/software-arch.jpg)
-
----
-
-## Key Features
-- **Vision-Based Human Following**: Utilized onboard cameras and real-time image processing to track and follow a human subject.
-- **Hand-Gesture Control**: Interpreted gestures to generate flight commands.
-- **Simulation-Driven Development**: Developed and tested solutions in AirSim, a high-fidelity UAV simulator.
-- **Accessible Hardware**: Employed cost-effective components, including a Raspberry Pi and Logitech C920 camera.
-
----
-
-## Tech Stack
-- **Languages**: Python
-- **Frameworks & Libraries**: PX4, MediaPipe, OpenCV, MAVSDK
-- **Simulation Tools**: Unreal Engine with AirSim
-- **Hardware**: Pixhawk 4, Raspberry Pi 4, Logitech C920
 
 ---
 
@@ -55,9 +54,9 @@ Available gestures
 Interface
 ![Hand gesture control](images/giaa/hand-interface.png)
 
-### Human follow control
+### Person follow control
 
-Axes for drone control
+Inputs for drone control
 ![Follow vectors](images/giaa/follow-vectors.jpg)
 
 Interface
@@ -66,23 +65,36 @@ Interface
 ---
 
 ## Development Journey
-### Phase 1: Proof-of-Concept
-- Developed a hand-gesture-based control mechanism to test basic integration between the PX4 platform and MediaPipe.
-- Used AirSim for initial validation and refinement.
+### Phase 1: Prototyping  
+I started with a simple idea: controlling the drone with hand gestures. Using MediaPipe for gesture detection and the PX4 platform for flight control, I created a prototype and tested it in a simulator called AirSim, built on top of Unreal Engine.
 
-### Phase 2: Human-Following Control
-- Designed an onboard system to detect and track a person using the drone’s camera.
-- Tuned PID controllers for precise tracking and movement.
-- Conducted comprehensive testing in both simulated and real-world environments.
+### Phase 2: Human Tracking  
+Next, I upgraded the system so the drone could follow a person. The camera detects the person’s position, and the drone adjusts its flight to keep them centered in its view.  
 
-### Phase 3: Real-World Validation
-- Built and calibrated a custom quadcopter.
-- Integrated hardware and tested control solutions in outdoor flights.
-- Identified and resolved challenges in vision-based control under varying conditions.
+### Phase 3: Real-World Testing  
+Once everything worked in the simulator, I built a custom quadcopter and tested it outdoors. After a lot of tweaking, the drone successfully followed people and responded to gestures in real flight!  
 
 ---
 
-## Future Improvements
-- Enhance detection algorithms for better performance in low-light conditions.
-- Integrate obstacle avoidance for safer autonomous navigation.
-- Expand to multi-drone systems for collaborative tasks.
+## See It in Action
+![Demo GIF](images/giaa/9h762f.gif)
+
+{{< video src="images/giaa/9h762f.gif" controls="no" >}}
+
+{{< video src="https://imgflip.com/gif/9h763b" controls="yes" >}}
+
+Want to explore more?  
+- [Check out the code on GitHub](https://github.com/l-gonz/tfg-giaa-dronecontrol)  
+- [Watch the full demo](https://www.youtube.com/watch?v=-CW-B27O4Y0)  
+
+---
+
+## What’s Next?
+I’d love to expand on this project with:  
+- **Better Tracking**: Improving detection in challenging conditions like low light.  
+- **Obstacle Avoidance**: So the drone can safely navigate around objects.  
+- **Multi-Drone Support**: Imagine a team of drones working together!
+
+---
+
+This project was such a fun way to explore what’s possible with drones and computer vision. It’s a mix of tech, creativity, and problem-solving.
