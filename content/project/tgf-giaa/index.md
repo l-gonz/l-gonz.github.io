@@ -79,10 +79,6 @@ Once everything worked in the simulator, I built a custom quadcopter and tested 
 ## See It in Action
 ![Demo GIF](images/giaa/9h762f.gif)
 
-{{< video src="images/giaa/9h762f.gif" controls="no" >}}
-
-{{< video src="https://imgflip.com/gif/9h763b" controls="yes" >}}
-
 Want to explore more?  
 - [Check out the code on GitHub](https://github.com/l-gonz/tfg-giaa-dronecontrol)  
 - [Watch the full demo](https://www.youtube.com/watch?v=-CW-B27O4Y0)  
