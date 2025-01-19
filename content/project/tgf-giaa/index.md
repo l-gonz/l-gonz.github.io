@@ -1,8 +1,7 @@
 ---
 title: Computer Vision for UAVs
-summary: A project developed for my Final Year report for Aeroespace Engineer Bachelor Degree.
+summary: Using computer vision to teach drones how to follow people and respond to gestures.
 subtitle: Exploration of Vision-Based Control Solutions for PX4-Driven UAVs
-description: "Using computer vision to teach drones how to follow people and respond to gestures."
 tags: ['py', 'cv']
 date: 2022-12-01
 github: "https://github.com/l-gonz/tfg-giaa-dronecontrol"
@@ -77,13 +76,18 @@ Once everything worked in the simulator, I built a custom quadcopter and tested 
 ---
 
 ## See It in Action
-![Demo GIF](images/giaa/9h762f.gif)
+![Demo GIF](images/giaa/demo.gif)
 
 Want to explore more?  
 - [Check out the code on GitHub](https://github.com/l-gonz/tfg-giaa-dronecontrol)  
 - [Watch the full demo](https://www.youtube.com/watch?v=-CW-B27O4Y0)  
 
 ---
+
+## The hardware
+![Drone compenents](images/giaa/hardware.jpg)
+
+--
 
 ## What’s Next?
 I’d love to expand on this project with:  
