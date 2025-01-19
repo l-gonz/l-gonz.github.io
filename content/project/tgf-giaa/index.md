@@ -8,7 +8,8 @@ github: "https://github.com/l-gonz/tfg-giaa-dronecontrol"
 links:
   - icon: github
     icon_pack: fab
-    external_link: https://github.com/l-gonz/tfg-giaa-dronecontrol
+    name: Repository
+    url: https://github.com/l-gonz/tfg-giaa-dronecontrol
 ---
 
 

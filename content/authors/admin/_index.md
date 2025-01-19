@@ -12,29 +12,10 @@ role: 'Software Engineer'
 status:
   icon: 🚀
 
-# Organizations/Affiliations
-#organizations:
-#- name: 腾讯
-#  url: ""
-
 # Short bio (displayed in user profile at end of posts)
 bio: Building ideas.
 
-#interests:
-#- Artificial Intelligence
-#- Computational Linguistics
-#- Information Retrieval
-
-education:
-  courses:
-  - course: BSc in Aerospace Engineering
-    institution: Rey Juan Carlos University
-    year: 2023
-  - course: BSc in Telecommunications Engineering
-    institution: Rey Juan Carlos University
-    year: 2024
-
-skills:
+interests:
   - C# / .Net
   - Python
   - Unity Engine
@@ -51,14 +32,10 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/l-gonz
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
   - icon: cv
     icon_pack: ai
     link: uploads/cv.pdf
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-#email: ""
 ---
 
 I’m a software engineer with a passion for transforming ideas into innovative, real-world solutions. With over six years of experience in software development, I specialize in full-stack development, with a focus on building scalable and efficient systems. Whether it’s crafting elegant code or designing intuitive user experiences, I’m driven by the challenge of solving complex problems and continuously learning new technologies to stay at the forefront of the industry.

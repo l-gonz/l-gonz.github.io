@@ -25,7 +25,6 @@ experience:
   - title: BSc in Aerospace Engineering
     company: Rey Juan Carlos University
     company_url: https://www.urjc.es
-    company_logo: org-x
     location: Madrid
     date_start: '2015-01-01'
     date_end: '2023-10-01'
@@ -36,10 +35,9 @@ experience:
   - title: BSc in Telecommunications Engineering
     company: Rey Juan Carlos University
     company_url: https://www.urjc.es
-    company_logo: org-x
     location: Madrid
     date_start: '2015-01-01'
-    date_end: '2043-07-01'
+    date_end: '2024-07-01'
     description:  |2-
         * Specialization: Telecommunication Technology
         * Dissertation on Carbon Emissions for Machine Learning

@@ -25,7 +25,6 @@ experience:
   - title: Developer Lead
     company: Bouvet, Equinor
     company_url: ''
-    company_logo: org-gc
     location: Trondheim, Norway
     date_start: '2022-03-01'
     date_end: ''
@@ -39,7 +38,6 @@ experience:
   - title: Game Developer
     company: Pineleaf Studio
     company_url: ''
-    company_logo: org-x
     location: Trondheim, Norway
     date_start: '2018-10-01'
     date_end: '2022-01-01'
