@@ -1,7 +1,7 @@
 ---
-title: "Machine Learning emissions analysis"
-subtitle: "Comparison of Energy Consumption in Machine Learning Models"
-summary: "Comparing the energy usage of different machine learning algorithms to balance performance and sustainability."
+title: Machine Learning emissions analysis
+subtitle: Comparison of Energy Consumption in Machine Learning Models
+summary: Comparing the energy usage of different machine learning algorithms to balance performance and sustainability.
 tags: ["machine-learning", "python"]
 complexity: "Intermediate"
 date: 2022-04-20

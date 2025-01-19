@@ -2,7 +2,7 @@
 title: Computer Vision for UAVs
 summary: Using computer vision to teach drones how to follow people and respond to gestures.
 subtitle: Exploration of Vision-Based Control Solutions for PX4-Driven UAVs
-tags: ['py', 'cv']
+tags: ['python', 'computer-vision']
 date: 2022-10-05
 github: "https://github.com/l-gonz/tfg-giaa-dronecontrol"
 links:
@@ -88,7 +88,7 @@ Want to explore more?
 ## The hardware
 ![Drone compenents](images/giaa/hardware.jpg)
 
---
+---
 
 ## What’s Next?
 I’d love to expand on this project with:  
