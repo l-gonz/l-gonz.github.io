@@ -29,11 +29,11 @@ content:
     - name: All
       tag: '*'
     - name: Machine Learning
-      tag: ml
+      tag: machine-learning
     - name: Computer Vision
-      tag: cv
+      tag: computer-vision
     - name: Python
-      tag: py
+      tag: python
 
 design:
   columns: '1'
