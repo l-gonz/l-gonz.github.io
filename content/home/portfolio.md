@@ -34,6 +34,10 @@ content:
       tag: computer-vision
     - name: Python
       tag: python
+    - name: Arduino
+      tag: arduino
+    - name: 3D modelling
+      tag: 3d-model
 
 design:
   columns: '1'
