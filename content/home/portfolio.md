@@ -38,6 +38,10 @@ content:
       tag: arduino
     - name: 3D Modelling
       tag: 3d-model
+    - name: Cloud
+      tag: cloud
+    - name: API
+      tag: api
 
 design:
   columns: '1'
